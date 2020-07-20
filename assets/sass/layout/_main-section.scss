@@ -145,11 +145,14 @@ li {
 }
 
 .card-grid__subtitle {
-    font-size: $medium;
-    font-weight: 500;
+    font-size: $large;
+    font-weight: $bold;
     color: $dark-gray;
 }
 
 .card-grid__text {
+    color: $light-gray;
     font-size: $x-small;
+    padding: 2% 5%;
+    border-bottom: 1px solid $soft-gray;
 }
