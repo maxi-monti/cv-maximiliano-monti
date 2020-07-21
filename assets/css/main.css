@@ -7896,7 +7896,7 @@ body {
 @media (max-width: 768px) {
   .header__title {
     color: #4484ce;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 5%; } }
 .header__subtitle {
   font-size: 40px;
@@ -7906,7 +7906,7 @@ body {
 
 @media (max-width: 768px) {
   .header__subtitle {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
     margin-top: 5%; } }
 .header__contact {
