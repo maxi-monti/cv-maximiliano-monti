@@ -1,0 +1,100 @@
+// *** Social Media - Main Section ***
+
+.experience__info-link {
+    color: $dark-gray;
+    font-size: $x-small;
+    padding: 3px 4px;
+    border: 1px solid $dark-gray;    
+    border-radius: 6px;
+}
+
+.experience__info-fb:hover {
+    color: $white;
+    font-size: $x-small;
+    padding: 3px 4px;
+    border-radius: 6px;
+    background: #3b5998;
+    text-decoration: none;
+    border: none;
+}
+
+.experience__info-twitter:hover {
+    color: $white;
+    font-size: $x-small;
+    padding: 3px 4px;
+    border-radius: 6px;
+    background: #00acee;
+    text-decoration: none;
+    border: none;
+}
+
+.experience__info-ig:hover {
+    color: $white;
+    font-size: $x-small;
+    padding: 3px 4px;
+    border-radius: 6px;
+    background: #833AB4;
+    text-decoration: none;
+    border: none;
+}
+
+.experience__info-linkedin:hover {
+    color: $white;
+    font-size: $x-small;
+    padding: 3px 4px;
+    background: #0e76a8;
+    text-decoration: none;
+    border: none;
+}
+
+// *** Media Query: Small Size ***
+
+@media (max-width: 768px) {
+
+    .experience__info-link {
+        font-size: $xx-small;
+        padding: 2px 3px;
+    }
+    .experience__info-link:hover {
+        color: $white;
+        font-size: $xx-small;
+        padding: 2px 3px;
+        border-radius: 6px;
+        background: $dark-gray;
+    }
+    .experience__info-fb:hover {
+        color: $white;
+        font-size: $x-small;
+        padding: 3px 4px;
+        border-radius: 6px;
+        background: #3b5998;
+        text-decoration: none;
+        border: none;
+    }
+    .experience__info-twitter:hover {
+        color: $white;
+        font-size: $x-small;
+        padding: 3px 4px;
+        border-radius: 6px;
+        background: #00acee;
+        text-decoration: none;
+        border: none;
+    }
+    .experience__info-ig:hover {
+        color: $white;
+        font-size: $x-small;
+        padding: 3px 4px;
+        border-radius: 6px;
+        background: #833AB4;
+        text-decoration: none;
+        border: none;
+    }
+    .experience__info-linkedin:hover {
+        color: $white;
+        font-size: $x-small;
+        padding: 3px 4px;
+        background: #0e76a8;
+        text-decoration: none;
+        border: none;
+    }
+}

@@ -95,9 +95,16 @@
     margin-right: 3%;
 }
 
+.header__links-icon:hover {
+    color: $light-blue;
+}
+
 @media (max-width: 768px) {
     .header__links-icon {
         margin-right: 5%;
         color: $light-blue;
-        }
-  }
+    }
+    .header__links-icon:hover {
+        color: $smoky-black;
+    }        
+}
