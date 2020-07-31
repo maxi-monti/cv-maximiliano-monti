@@ -7901,7 +7901,7 @@ body {
 .header__subtitle {
   font-size: 40px;
   font-weight: 700;
-  letter-spacing: 5;
+  letter-spacing: 5px;
   margin-top: 5%; }
 
 @media (max-width: 768px) {
@@ -7945,6 +7945,15 @@ body {
   color: #43464b;
   background-color: #fff; }
 
+@media (max-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0;
+    font-family: "Lato", sans-serif;
+    color: #43464b;
+    background-color: #fff; } }
 .navbar {
   grid-column-start: 1;
   grid-column-end: 4;
