@@ -8003,6 +8003,13 @@ body {
   justify-content: space-between;
   margin: 6% auto 3% auto; }
 
+.experience__info-p {
+  font-size: 14px;
+  font-style: oblique; }
+
+@media (max-width: 768px) {
+  .experience__info-p {
+    display: none; } }
 .experience__info-role {
   font-size: 26px;
   font-weight: 700;
@@ -8061,6 +8068,16 @@ li {
   padding: 2% 5%;
   border-bottom: 1px solid #D3D3D3; }
 
+.projects {
+  margin-bottom: 15%; }
+
+.projects__title {
+  font-size: 40px;
+  font-weight: 500; }
+
+@media (max-width: 768px) {
+  .projects__text {
+    display: none; } }
 .experience__info-link {
   color: #43464b;
   font-size: 12px;
