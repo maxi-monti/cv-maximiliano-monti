@@ -7864,6 +7864,9 @@ body {
   letter-spacing: 1.6px;
   margin-top: 5%; }
 
+.navbar__item:hover {
+  text-decoration: none; }
+
 .header {
   font-family: "Lato", sans-serif;
   color: #43464b;
