@@ -8076,7 +8076,8 @@ li {
 
 .projects__title {
   font-size: 40px;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-bottom: 3%; }
 
 @media (max-width: 768px) {
   .projects__text {
