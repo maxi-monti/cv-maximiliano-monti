@@ -3,6 +3,31 @@
 .experience__info-link {
     color: $dark-gray;
     font-size: $x-small;
+    vertical-align: middle;
+    margin-right: 0,5%;
+}
+
+.experience__info-linkedin:hover {
+    color: #0e76a8;
+}
+
+.experience__info-fb:hover {
+    color: #3b5998;
+}
+
+.experience__info-twitter:hover {
+    color: #00acee;
+}
+
+.experience__info-ig:hover {
+    color: #833AB4;
+}
+
+
+/*
+.experience__info-link {
+    color: $dark-gray;
+    font-size: $x-small;
     padding: 3px 4px;
     border: 1px solid $dark-gray;    
     border-radius: 6px;
@@ -98,3 +123,4 @@
         border: none;
     }
 }
+*/
